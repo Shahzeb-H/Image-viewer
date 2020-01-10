@@ -1,0 +1,42 @@
+body {
+  background-color: grey;
+}
+
+.main-img {
+  width : 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width : 100%;
+}
+
+.next {
+  width : 100px;
+  position: absolute;
+  left : 85%;
+  top : 40%;
+}
+
+.next:hover {
+  cursor : pointer;
+}
+
+.previous {
+  transform: rotate(180deg);
+  width : 100px;
+  position: absolute;
+  left : 5%;
+  top : 40%;
+}
+
+.previous:hover {
+  cursor : pointer;
+}
+
+.images {
+  display : grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-gap : 10px;
+}
